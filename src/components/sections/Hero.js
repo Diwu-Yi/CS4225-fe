@@ -6,6 +6,8 @@ import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
 import Calendar from 'react-calendar';
+import TopK from '../../utils/TopKUtils';
+import BarChart from '../../utils/BarChar';
 
 const propTypes = {
   ...SectionProps.types
@@ -66,6 +68,14 @@ const Hero = ({
                     </Button>
                 </ButtonGroup>
               </div>
+              <div style={{ marginTop:"60px" }}>
+                  <div style={{ height: 600, width: 600 }}>
+                    <BarChart country={"IN"} dateProvided={"2020_02_01"} />
+                  </div>
+                  <div style={{ height: 600, width: 600 }} >
+                    <TopK country={"IN"} dateProvided={"01/02/2020"} />
+                  </div>
+                </div>
             </div>
           </div>
             <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-delay="500">
