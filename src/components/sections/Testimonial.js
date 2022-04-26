@@ -44,8 +44,8 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Remarks from the team',
-    paragraph: 'As we witness history unfold, it only reminds us of how precious people in front of us are.'
+    title: 'Thoughts from the team',
+    paragraph: 'As we witness history unfolds, it only reminds us of how precious people in front of us are.'
   };
 
   return (
@@ -62,14 +62,14 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — The findings are both interesting and somewhat stressing to me at the same time, because I do recall how scared I was at some points of interest.
+                    — The findings are both interesting and somewhat stressing to me at the same time, because I do recall how scared I was at some points of case spikes in Singapore.
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">Diwu-Yi</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">NUS CS4225 Dev</a>
+                    <a>NUS CS4225 Developer</a>
                   </span>
                 </div>
               </div>
@@ -79,14 +79,14 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — I think that doing a project like this is meaningful. We should remember how we have reacted and acknowledge the pain and suffering as we gradually smooth into our ordinary lives again.
+                    — I think these studies have great instructive implications for alleviating people's discomfort due to Covid-19. In addition, it provides an insight for administrative officials to address people's concern more specifically.
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Some random user</span>
+                  <span className="testimonial-item-name text-color-high">QY </span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">NUS Student</a>
+                    <a>NUS Student</a>
                   </span>
                 </div>
               </div>
@@ -96,14 +96,14 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Sometimes when I talk, I say year 2020 blahblah. I keep forgetting that it has been two full years since the onset. Although the journey has been tough with massive losses, I am glab we puled through in the end. Life finds a way.
+                    — Sometimes when I talk, I say in 2020 blahblah. I keep forgetting that it has been two full years since the onset. Although the journey has been tough with massive losses, I am glad we puled through in the end. Life finds a way.
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Ben Stafford</span>
+                  <span className="testimonial-item-name text-color-high">Mr Liu </span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">General Public</a>
+                    <a>General Public</a>
                   </span>
                 </div>
               </div>

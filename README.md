@@ -1,4 +1,22 @@
-# Free React landing page template
+# NUS CS4225 Project: COVID Sentiment Analyzer
+## Who we are and What we did
+
+We are six NUS students took CS4225 in AY21-22 and have chosen COVID Tweets sentiment analysis because
+we believe that the findings will empower ourselves to understand our communities better and enable relevant officials
+or authorities to better manager the citizen's reactions towards the pandemic. Business owners may also use our finding to 
+substantiate business decision, such as it would a good time to re-open this year.
+
+## Developers
+####https://github.com/xz0127 
+####https://github.com/xuanqi966
+####https://github.com/yuming7144
+####https://github.com/WM71811
+####https://github.com/Diwu-Yi
+
+## Acknowledge
+
+We would like to thank Cruip for providing the beautiful template under MIT Liscence
+and our front-end is adapted based on it. Please see below for details of the template.
 
 **Open** is a **free React landing page template designed** for developers/makers who want to create a quick and professional landing page for their open source projects, SaaS products, online services, and more.
 

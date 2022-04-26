@@ -44,8 +44,9 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'We shall visualisa people\' sentiments detected against time as COVID evolves',
-    paragraph: 'There are some sentiments that we deem as particularly interesting, such as \' optimistic, anxious, among others.'
+    title: 'We shall visualise people\' sentiments detected via tweets against time as COVID evolves',
+    paragraph: "There are some sentiments that we deem as particularly interesting, such as 'Joy', 'Sadness', 'Fear' and 'Surprise' among others. " +
+        "'Joy' is a distinct happy feeling, whereas 'Sadness', 'Fear' and 'Surprise' can indicate a general sense of anxiety towards COVID."
   };
 
   return (
@@ -63,7 +64,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      src={require('./../../assets/images/joy.png')}
                       alt="Features tile icon 01"
                       width={64}
                       height={64} />
@@ -71,10 +72,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Optimistic
+                    Joy
                     </h4>
                   <p className="m-0 text-sm">
-                    Place holder texts.
+                    Feeling happy and optimistic
                     </p>
                 </div>
               </div>
@@ -85,7 +86,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-02.svg')}
+                      src={require('./../../assets/images/sadness.png')}
                       alt="Features tile icon 02"
                       width={64}
                       height={64} />
@@ -93,10 +94,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Anxiousness
+                    Sadness
                     </h4>
                   <p className="m-0 text-sm">
-                    Place holder texts.
+                    Feeling upset and worried
                     </p>
                 </div>
               </div>
@@ -107,7 +108,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-03.svg')}
+                      src={require('./../../assets/images/fear.png')}
                       alt="Features tile icon 03"
                       width={64}
                       height={64} />
@@ -115,10 +116,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Joking
+                    Fear
                     </h4>
                   <p className="m-0 text-sm">
-                    Place holder texts.
+                    Feeling scared and vulnerable
                     </p>
                 </div>
               </div>
@@ -129,7 +130,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-04.svg')}
+                      src={require('./../../assets/images/surprise.png')}
                       alt="Features tile icon 04"
                       width={64}
                       height={64} />
@@ -137,10 +138,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust
+                    Surprise
                     </h4>
                   <p className="m-0 text-sm">
-                    Place holder texts.
+                    Feeling unbelievable
                     </p>
                 </div>
               </div>
@@ -151,7 +152,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-05.svg')}
+                      src={require('./../../assets/images/joking.png')}
                       alt="Features tile icon 05"
                       width={64}
                       height={64} />
@@ -159,10 +160,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust2
+                    Joking
                     </h4>
                   <p className="m-0 text-sm">
-                    Place holder texts.
+                    Feeling light, unworried
                     </p>
                 </div>
               </div>
@@ -173,7 +174,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-06.svg')}
+                      src={require('./../../assets/images/mixed.png')}
                       alt="Features tile icon 06"
                       width={64}
                       height={64} />
@@ -181,10 +182,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust3
+                    Mixed
                     </h4>
                   <p className="m-0 text-sm">
-                    Place holder texts.
+                    Feeling conflicted
                     </p>
                 </div>
               </div>

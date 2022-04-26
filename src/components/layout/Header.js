@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
+import Button from "../elements/Button";
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -111,17 +112,17 @@ const Header = ({
                       'list-reset text-xs',
                       navPosition && `header-nav-${navPosition}`
                     )}>
-                    <li>
-                      <Link to="#0" onClick={closeMenu}>Source code</Link>
-                    </li>
+                    <a href="https://github.com/xz0127/CS4225-COVID-sentiment-analyzer">
+                      <Button color="dark" onClick={closeMenu}>Source code</Button>
+                    </a>
                   </ul>
                   {!hideSignin &&
                     <ul
                       className="list-reset header-nav-right"
                     >
-                      <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>About CS 4225</Link>
-                      </li>
+                      <a href="https://nusmods.com/modules/CS4225/big-data-systems-for-data-science">
+                        <Button className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>About CS 4225</Button>
+                      </a>
                     </ul>}
                 </div>
               </nav>

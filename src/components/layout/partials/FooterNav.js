@@ -1,6 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
+import Button from "../../elements/Button";
 
 const FooterNav = ({
   className,
@@ -18,15 +19,9 @@ const FooterNav = ({
       className={classes}
     >
       <ul className="list-reset">
-        <li>
-          <Link to="#0">About us</Link>
-        </li>
-        <li>
-          <Link to="#0">FAQ's</Link>
-        </li>
-        <li>
-          <Link to="#0">Support</Link>
-        </li>
+        <a href="https://github.com/Diwu-Yi/CS4225-fe#readme">
+          <Button size="20px" color="dark" to="#0">About us</Button>
+        </a>
       </ul>
     </nav>
   );

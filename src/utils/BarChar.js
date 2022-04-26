@@ -40,10 +40,10 @@ const BarChart = (input) => {
               // label: '# of votes',
               data: percentageArr,
               backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
+                'rgba(255, 99, 132, 0.7)',
+                'rgba(54, 162, 235, 0.3)',
+                'rgba(255, 206, 86, 0.3)',
+                'rgba(75, 192, 192, 0.3)',
               ],
               borderColor: [
                 'rgba(255, 99, 132, 1)',
