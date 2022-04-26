@@ -130,7 +130,7 @@ const FeaturesSplit = ({
                   </h3>
                 <p className="m-0">
                   People in India have the most stable mood during these two years. The percentage of the sense of fear spikes as expected in the
-                  initial onset, but quickly goes back to stablisation under 0.6. Also, India is more sacred of the Omicron variant, but realised
+                  initial onset, but quickly goes back to stablisation under 60%. Also, India is more sacred of the Omicron variant, but realised
                   soon that is not as bad.
                   </p>
               </div>

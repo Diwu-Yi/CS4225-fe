@@ -44,7 +44,7 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'We shall visualise people\' sentiments detected via tweets against time as COVID evolves',
+    title: 'We shall visualise people\'s sentiments detected via tweets against time as COVID evolves',
     paragraph: "There are some sentiments that we deem as particularly interesting, such as 'Joy', 'Sadness', 'Fear' and 'Surprise' among others. " +
         "'Joy' is a distinct happy feeling, whereas 'Sadness', 'Fear' and 'Surprise' can indicate a general sense of anxiety towards COVID."
   };

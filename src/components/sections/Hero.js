@@ -27,7 +27,7 @@ const Hero = ({
 }) => {
   const [showCalendar, setShowCalendar] = useState(false);
 
-  const [value, onChange] = useState(new Date("2022-02-01"));
+  const [value, onChange] = useState(new Date("2022-01-01"));
   console.log(value)
 
   const moment = require('moment');
@@ -93,7 +93,7 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Have you ever wondered how people in SG, US or India using tweeter have been feeling towards the COVID situation ?
+                Have you ever wondered how people in SG, US or India using twitter have been feeling towards the COVID situation ?
                 </p>
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
                 Select a date to find out the sentiments and the 20 most frequent words in their tweets.

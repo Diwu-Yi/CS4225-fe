@@ -44,7 +44,7 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Thoughts from the team',
+    title: 'Thoughts from the team and community',
     paragraph: 'As we witness history unfolds, it only reminds us of how precious people in front of us are.'
   };
 
@@ -96,7 +96,7 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Sometimes when I talk, I say in 2020 blahblah. I keep forgetting that it has been two full years since the onset. Although the journey has been tough with massive losses, I am glad we puled through in the end. Life finds a way.
+                    — Very interesting and insightful findings. The studies are very helpful for understanding the mental impact caused by Covid-19 and how to address people's concern.
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
